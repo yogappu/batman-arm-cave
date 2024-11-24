@@ -1,6 +1,7 @@
 # batman-arm-cave
 
-WIP
+WIP.....
+
 The code demonstrates the below:
   - boot-up sequence for cortex-m3 arm core
   - setup PC8 and PC9 as GPIO Output pins
