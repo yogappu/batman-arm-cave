@@ -62,9 +62,6 @@ file armexp.bin md5 checksum: aad3ff3a8daa15b1acae6c274623462b, stlink checksum:
 
 2024-11-24T20:54:25 INFO flash_loader.c: Successfully loaded flash loader in sram
 
-## TADAAAA....
-![](https://github.com/yogappu/batman-arm-cave/blob/main/led.GIF)
-
 2024-11-24T20:54:25 INFO flash_loader.c: Clear DFSR
 
 2/2   pages written
@@ -74,3 +71,6 @@ file armexp.bin md5 checksum: aad3ff3a8daa15b1acae6c274623462b, stlink checksum:
 2024-11-24T20:54:25 INFO common_flash.c: Flash written and verified! jolly good!
 
 batman@macbook arm % sudo st-flash reset
+
+## TADAAAA....
+![](https://github.com/yogappu/batman-arm-cave/blob/main/led.GIF)
