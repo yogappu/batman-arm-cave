@@ -16,8 +16,8 @@ void configure_systick(void) {
     SYSTICK_CTRL = 0;
     SYSTICK_VAL = 0;
     // 3. Configure SysTick to trigger an interrupt every 2ms
-    // Assuming the system clock is 8 MHz, set the reload value to 16000000 for 2s
-    SYSTICK_LOAD = 800000 - 1;    // SysTick reload value for 2s
+    // Assuming the system clock is 8 MHz, set the reload value to 800000 for 100ms
+    SYSTICK_LOAD = 800000 - 1;    // SysTick reload value for 100ms
     // Enable the SysTick interrupt in NVIC
     NVIC_ISER0 |= (1 << 15);  // Set bit 15 to enable SysTick interrupt in NVIC
     //SYSTICK_VAL = 0;          // Clear the current value register
