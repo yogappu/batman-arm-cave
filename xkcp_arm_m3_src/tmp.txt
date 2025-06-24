@@ -1,0 +1,25 @@
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"/etc/sudoers.tmp" 62L, 1616B[1;1H#
+# Sample /etc/sudoers file.
+#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# See the sudoers man page for the details on how to write a sudoers file.
+
+##
+# Override built-in defaults
+##
+Defaults[8Cenv_reset
+Defaults[8Cenv_keep += "BLOCKSIZE"
+Defaults[8Cenv_keep += "COLORFGBG COLORTERM"
+Defaults[8Cenv_keep += "__CF_USER_TEXT_ENCODING"
+Defaults[8Cenv_keep += "CHARSET LANG LANGUAGE LC_ALL LC_COLLATE LC_CTYPE"
+Defaults[8Cenv_keep += "LC_MESSAGES LC_MONETARY LC_NUMERIC LC_TIME"
+Defaults[8Cenv_keep += "LINES COLUMNS"
+Defaults[8Cenv_keep += "LSCOLORS"
+Defaults[8Cenv_keep += "SSH_AUTH_SOCK"
+Defaults[8Cenv_keep += "TZ"
+Defaults[8Cenv_keep += "DISPLAY XAUTHORIZATION XAUTHORITY"
+Defaults[8Cenv_keep += "EDITOR VISUAL"
+Defaults[8Cenv_keep += "HOME MAIL"[1;1H[?25h[?4m
+
+[24;1H[?2004l[>4;m[23;2t[23;1t[24;1H[K[24;1H[?1004l[?2004l[?1l>[?1049l[>4;m
