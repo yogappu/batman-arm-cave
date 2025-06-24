@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug STM32",
+      "cwd": "${workspaceFolder}",
+      "executable": "./armM3.elf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "openocd",
+      "serverpath": "/usr/local/bin/openocd-wrapper",
+      "device": "STM32F100RB",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f1x.cfg"
+      ],
+      "runToEntryPoint": "main",
+      "svdFile": "STM32F100.svd",
+      "postRestartCommands": [
+        "break main"
+      ]
+    }
+  ]
+}
